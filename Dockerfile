@@ -8,7 +8,7 @@ WORKDIR /app
 
 # Copier le fichier jar généré dans le conteneur 
 
-COPY target/*.jar app.jar 
+COPY target/*.jar docker-demo.jar 
 
 # Exposer le port sur lequel Spring Boot écoute 
 
